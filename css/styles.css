@@ -1,0 +1,289 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand-color: #2196f3;
+  --background-color: #2f303a;
+  --main-font-color: #212121;
+  --secondary-font-color: #757575;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--main-font-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.disappear {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.button {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  height: 38px;
+  width: 121px;
+  font-family: inherit;
+  padding-left: 0;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--brand-color);
+  color: #ffffff;
+}
+
+.button1 {
+  cursor: pointer;
+  background: var(--brand-color);
+  border-radius: 4px;
+  border: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto", "Railway", sans-serif;
+  line-height: 1.87;
+  text-align: center;
+  padding: 10px 41px 10px 42px;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
+
+.logo {
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  margin-right: 93px;
+  padding-block: 25px;
+}
+
+.logo1 {
+  color: var(--brand-color);
+  line-height: 1.19;
+}
+
+.logo2.link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.logo.link,
+.logo2.link {
+  font-family: "Raleway", "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-style: normal;
+}
+
+.link.contact {
+  color: var(--secondary-font-color);
+  font-weight: 400;
+}
+
+.link:hover,
+.link:focus,
+.link.contact:hover,
+.link.contact:focus {
+  color: var(--brand-color);
+}
+
+.list {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  padding: 0;
+  gap: 30px;
+}
+
+.list .link {
+  display: block;
+  /* padding: 0 46px 0 0; */
+}
+
+.list.buttons {
+  padding: 22px;
+  margin-bottom: 34px;
+  gap: 8px;
+}
+
+.list .link.contact {
+  padding-right: 50px;
+}
+
+.border {
+  border-bottom: 1px solid #ececec;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation,
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 18px;
+  line-height: 2;
+  padding-bottom: 4px;
+}
+
+.filtr {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-font-color);
+}
+
+.heading2 {
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-font-color);
+}
+
+.last {
+  padding-right: 0;
+}
+
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+.main-section {
+  background-color: var(--background-color);
+}
+.main-section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding-top: 200px;
+  margin-bottom: 30px;
+  max-width: 696px;
+}
+
+.second-header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+  margin-bottom: 50px;
+}
+
+.card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+  margin: 30px 0 10px;
+}
+
+.role {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+  margin-bottom: 30px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.heading-filtr {
+  padding-inline: 24px;
+  padding-block: 20px;
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 60px 215px;
+  box-sizing: border-box;
+}
+
+.address {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.list.foot {
+  display: inline;
+}
+
+.list.foot > li {
+  padding-bottom: 9px;
+}
