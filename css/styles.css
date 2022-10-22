@@ -10,6 +10,7 @@
   --background-color: #2f303a;
   --main-font-color: #212121;
   --secondary-font-color: #757575;
+  --additional-color: #f5f4fa;
 }
 
 body {
@@ -33,9 +34,9 @@ body {
 
 .button {
   cursor: pointer;
-  background: #f5f4fa;
+  background: var(--additional-color);
   border-radius: 4px;
-  border: #f5f4fa;
+  border: var(--additional-color);
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -186,6 +187,13 @@ ul {
 
 .main-section {
   background-color: var(--background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../images/Img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-section > .container {
   display: flex;
@@ -227,7 +235,7 @@ ul {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--additional-color);
   padding-bottom: 94px;
 }
 
@@ -286,4 +294,70 @@ ul {
 
 .list.foot > li {
   padding-bottom: 9px;
+}
+
+.icon-envelope {
+  --color2: var(--secondary-font-color);
+  margin-right: 10px;
+}
+
+.icon-smartphone {
+  --color5: var(--secondary-font-color);
+  margin-right: 10px;
+}
+
+.link:hover svg,
+.link:focus svg {
+  --color2: var(--brand-color);
+  --color5: var(--brand-color);
+}
+
+.icon-antenna1,
+.icon-clock1,
+.icon-diagram1,
+.icon-astronaut1 {
+  margin: 25px 100px;
+}
+
+.box {
+  background-color: var(--additional-color);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.icon-instagram2 {
+  --color4: #afb1b8;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: #ffffff solid;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+.circle:hover {
+  background-color: var(--brand-color);
+}
+
+.circle:hover svg {
+  --color4: #ffffff;
+  --color3: #ffffff;
+}
+
+.icon-Client1 {
+  --color3: #000000;
+  border: #afb1b8 solid;
+  border-radius: 4px;
 }
