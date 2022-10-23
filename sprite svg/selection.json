@@ -41,7 +41,7 @@
         }
       ],
       "properties": {
-        "order": 42,
+        "order": 62,
         "id": 19,
         "name": "antenna1",
         "prevSize": 32
@@ -280,7 +280,7 @@
         }
       ],
       "properties": {
-        "order": 43,
+        "order": 63,
         "id": 18,
         "name": "astronaut1",
         "prevSize": 32
@@ -349,7 +349,7 @@
         }
       ],
       "properties": {
-        "order": 44,
+        "order": 64,
         "id": 17,
         "name": "clock1",
         "prevSize": 32
@@ -428,7 +428,7 @@
         }
       ],
       "properties": {
-        "order": 45,
+        "order": 65,
         "id": 16,
         "name": "diagram1",
         "prevSize": 32
@@ -468,7 +468,7 @@
         }
       ],
       "properties": {
-        "order": 46,
+        "order": 66,
         "id": 15,
         "name": "envelope",
         "prevSize": 32
@@ -507,7 +507,7 @@
         }
       ],
       "properties": {
-        "order": 47,
+        "order": 67,
         "id": 14,
         "name": "facebook11",
         "prevSize": 32
@@ -546,7 +546,7 @@
         }
       ],
       "properties": {
-        "order": 48,
+        "order": 68,
         "id": 13,
         "name": "facebook1",
         "prevSize": 32
@@ -605,7 +605,7 @@
         }
       ],
       "properties": {
-        "order": 49,
+        "order": 69,
         "id": 12,
         "name": "instagram21",
         "prevSize": 32
@@ -664,7 +664,7 @@
         }
       ],
       "properties": {
-        "order": 50,
+        "order": 70,
         "id": 11,
         "name": "instagram2",
         "prevSize": 32
@@ -723,7 +723,7 @@
         }
       ],
       "properties": {
-        "order": 51,
+        "order": 71,
         "id": 10,
         "name": "linkedin11",
         "prevSize": 32
@@ -782,7 +782,7 @@
         }
       ],
       "properties": {
-        "order": 52,
+        "order": 72,
         "id": 9,
         "name": "linkedin1",
         "prevSize": 32
@@ -878,7 +878,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo (1)"
+          "logo(1)"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1002,9 +1002,9 @@
         }
       ],
       "properties": {
-        "order": 53,
+        "order": 73,
         "id": 8,
-        "name": "Logo-1",
+        "name": "logo1",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1074,7 +1074,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo (2)"
+          "logo(2)"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1162,9 +1162,9 @@
         }
       ],
       "properties": {
-        "order": 54,
+        "order": 74,
         "id": 7,
-        "name": "Logo-2",
+        "name": "logo2",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1198,7 +1198,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo (3)"
+          "logo(3)"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1232,9 +1232,9 @@
         }
       ],
       "properties": {
-        "order": 55,
+        "order": 75,
         "id": 6,
-        "name": "Logo-3",
+        "name": "logo3",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1292,7 +1292,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo (4)"
+          "logo(4)"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1362,9 +1362,9 @@
         }
       ],
       "properties": {
-        "order": 56,
+        "order": 76,
         "id": 5,
-        "name": "Logo-4",
+        "name": "logo4",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1454,7 +1454,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo (5)"
+          "logo(5)"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1572,9 +1572,9 @@
         }
       ],
       "properties": {
-        "order": 57,
+        "order": 77,
         "id": 4,
-        "name": "Logo-5",
+        "name": "logo5",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1596,7 +1596,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "Logo"
+          "logo"
         ],
         "colorPermutations": {
           "1171171171175177184125525525513315024313333331": [
@@ -1612,9 +1612,9 @@
         }
       ],
       "properties": {
-        "order": 58,
+        "order": 78,
         "id": 3,
-        "name": "Logo",
+        "name": "logo",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -1662,7 +1662,7 @@
         }
       ],
       "properties": {
-        "order": 59,
+        "order": 79,
         "id": 2,
         "name": "smartphone",
         "prevSize": 32
@@ -1701,7 +1701,7 @@
         }
       ],
       "properties": {
-        "order": 60,
+        "order": 80,
         "id": 1,
         "name": "twitter11",
         "prevSize": 32
@@ -1740,7 +1740,7 @@
         }
       ],
       "properties": {
-        "order": 61,
+        "order": 81,
         "id": 0,
         "name": "twitter1",
         "prevSize": 32
