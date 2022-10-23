@@ -11,6 +11,8 @@
   --main-font-color: #212121;
   --secondary-font-color: #757575;
   --additional-color: #f5f4fa;
+  --icons-color: #afb1b8;
+  --icon-background-color: #e5e5e5;
 }
 
 body {
@@ -326,8 +328,8 @@ ul {
   margin-bottom: 50px;
 }
 
-.icon-instagram2 {
-  --color4: #afb1b8;
+.icon-social {
+  --color3: var(--icons-color);
 }
 
 .socials {
@@ -354,10 +356,27 @@ ul {
 .circle:hover svg {
   --color4: #ffffff;
   --color3: #ffffff;
+  cursor: pointer;
 }
 
-.icon-Client1 {
-  --color3: #000000;
-  border: #afb1b8 solid;
+.icon-logo {
+  --color4: var(--icons-color);
+  --color2: var(--icons-color);
+  border: 1px solid var(--icons-color);
   border-radius: 4px;
+  padding: 15px 31px;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon-logo:hover {
+  border: 1px solid var(--brand-color);
+  --color4: var(--brand-color);
+  --color2: var(--brand-color);
+  cursor: pointer;
 }
