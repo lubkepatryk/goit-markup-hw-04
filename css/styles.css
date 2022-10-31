@@ -282,6 +282,10 @@ ul {
   flex-basis: calc((100% - 60px) / 3);
 }
 
+.item > img {
+  display: block;
+}
+
 .heading-filtr {
   padding-inline: 24px;
   padding-block: 20px;
